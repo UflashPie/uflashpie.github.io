@@ -45,7 +45,7 @@ header{
 
 .logo-p{
 	font-size: 18px;
-	font-family: "Ubuntu";
+	font-family: 'Ubuntu', sans-serif;
 	font-weight:500;
   color: #7298d7;
   text-decoration: none;
@@ -65,7 +65,7 @@ header{
 	width:200px;
 	line-height: 25px;
 	background-color: #7298d7;
-	font-family:"Ubuntu";
+	font-family: 'Ubuntu', sans-serif;
 	float:left;
 	text-align:center;
 	opacity:0.9;
@@ -88,7 +88,7 @@ header{
 	float: left;
 	width:120px;
 	margin-top: 23px;
-	font-family: "Ubuntu";
+	font-family: 'Ubuntu', sans-serif;
 	font-size: 18px;
 	font-weight:500;
   color: #7298d7;
@@ -99,7 +99,7 @@ header{
 }
 
 .head-tittle{
-	font-family: "Ubuntu";
+	font-family: 'Ubuntu', sans-serif;
 	font-size: 48px;
 	color: #7298d7;
 	text-align:center;
@@ -173,14 +173,14 @@ header{
 }
 
 .underChislo{
-	font-family: "Ubuntu";
+	font-family: 'Ubuntu', sans-serif;
 	font-size:24px;
 	font-weight:500;
 	margin-left:55px;
 }
 
 .chisloText{
-	font-family: "Ubuntu";
+	font-family: 'Ubuntu', sans-serif;
 	font-size: 18px;
 	float: left;
 	width:125px;
@@ -291,7 +291,7 @@ header{
 }
 
 .insta-tag > a{
-	font-family: "Ubuntu";
+	font-family: 'Ubuntu', sans-serif;
 	font-size: 20px;
 	color: #454545;
 }
@@ -307,7 +307,7 @@ header{
 .response-card-button{
 	width: 120px;
 	height: 30px;
-	font-family: "Ubuntu";
+	font-family: 'Ubuntu', sans-serif;
 	font-size: 14px;
 	padding:0;
 	border-radius: 5px;
@@ -371,7 +371,7 @@ header{
 }
 
 .price-text{
-	font-family: "Ubuntu";
+	font-family: 'Ubuntu', sans-serif;
 	font-size: 30px;
 }
 
@@ -437,7 +437,7 @@ header{
 
 .application-date{
 	color: #ff7979;
-	font-family: "Ubuntu";
+	font-family: 'Ubuntu', sans-serif;
 	font-size: 30px;
 	font-weight: 600;
 	float:left;
