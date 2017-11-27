@@ -18,6 +18,7 @@ header{
 @import url(http://fonts.googleapis.com/css?family=Ubuntu);
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
 @import url('https://fonts.googleapis.com/css?family=Shrikhand');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
 
 
 #header-global{
@@ -166,7 +167,7 @@ header{
 }
 
 .chislo{
-	font-family: "Shrikhand";
+	font-family: 'Shrikhand', cursive;
 	font-size: 50px;
 	line-height: 45px;
 }
@@ -364,7 +365,7 @@ header{
 }
 
 .price-grn{
-	font-family: "Shrikhand";
+	font-family: 'Shrikhand', cursive;
 	font-size: 60px;
 	line-height: 48px;
 }
@@ -392,7 +393,7 @@ header{
 }
 
 .sale-to{
-	font-family: "Shrikhand";
+	font-family: 'Shrikhand', cursive;
 	font-size: 60px;
 	color: #ff7979;
 }
