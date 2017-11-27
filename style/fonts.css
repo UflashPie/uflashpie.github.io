@@ -4,3 +4,19 @@
 	src: url("../fonts/Ubuntu/Ubuntu-Medium.ttf") format("truetype");
 	src: url("../fonts/Ubuntu/Ubuntu-Bold.ttf") format("truetype");
 }
+
+@font-face {
+	font-family: "Pattaya";
+	src: url("../fonts/Pattaya/Pattaya-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "PT_Sans";
+	src: url("../fonts/PT_Sans/PT_Sans-Regular.ttf") format("truetype");
+	src: url("../fonts/PT_Sans/PT_Sans-Web-Bold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Shrikhand";
+	src: url("../fonts/Shrikhand/Shrikhand-Regular.ttf") format("truetype");
+}
