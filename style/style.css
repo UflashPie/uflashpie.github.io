@@ -565,18 +565,29 @@ input{
 }
 
 .tel-icon{
+/*	font-family: "FontAwesome";
+	color: white;
+	float: left;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-top: 8px;*/
+}
+
+.form-tel-me{
+	margin-right: auto;
+	margin-left: auto;
+	width: 250px;
+}
+
+.button-tel-input{
 	font-family: "FontAwesome";
 	color: white;
 	float: left;
   font-size: 30px;
   margin-left: 10px;
   margin-top: 8px;
-}
-
-.form-tel-me{
-	margin-right: auto;
-	margin-left: auto;
-	width: 245px;
+  background:transparent;
+  border:none;
 }
 
 .social-networks-container{
