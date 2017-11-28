@@ -7,6 +7,13 @@
 body{
   background-color: #fff;
   height:4000px;
+  width:100%;
+}
+
+@media screen and (max-width: 1170px) and (min-width: 320px) {
+    body {
+      width:125%;
+    }
 }
 
 header{
