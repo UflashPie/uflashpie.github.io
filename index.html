@@ -244,7 +244,7 @@
 							 		<input type="tel" name="phone" id="phone">
 							 </div>
 							<div class="lb-inp">
-							  <label for="email" class="application-label">*Ваш E-mail:</label>
+							  <label for="email" name="_replyto" class="application-label">*Ваш E-mail:</label>
 							 		<input type="email" name="email" id="email">
 							 </div>
 							 <div class="lb-inp">		
@@ -257,7 +257,7 @@
 								</div>
 								
 						  		<!-- <a href="#" class="button application-button form-button">Подати заявку</a> -->
-						  		<button type="submit" class="button application-button">Подати заявку</button>
+						  		<button type="submit" class="button application-button" value="Send">Подати заявку</button>
 						  	
 						 </form>
 					</div>
@@ -279,12 +279,12 @@
 			<div class="footer-wrapper">
 				<h1 class="head-tittle some-question">Залишилися питання?</h1>
 
-				<form class="form-tel-me" action="">
+				<form class="form-tel-me" action="https://formspree.io/yurii.o@ukr.net" method="POST">
 						<label for="tel_me">
 							<h3 class="head-tittle tell_me">Замовити дзвінок:</h3>
 						</label>
-						<!-- <input type="tel" id="tel_me" class="head-tittle inpt-tel-me" placeholder="Ваш телефон:"> -->
-						<a href="#"><p class="tel-icon"></p></a>
+						<input type="tel" name="_replyto" id="tel_me" class="head-tittle inpt-tel-me" placeholder="Ваш телефон:">
+						<a href="#" type="submit" value="Send"><p class="tel-icon"></p></a>
 
 						<div class="social-networks-container">
 							<div class="social-networks">
@@ -307,13 +307,6 @@
 				</form>
 
 			</div>
-
-			<div class="overlay js-overlay-thank-you">
-			<div class="popup js-thank-you">
-				<h2>Спасибо за заявку</h2>
-				<div class="close-popup js-close-thank-you"></div>
-			</div>
-		</div>
 		</footer>
     
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
