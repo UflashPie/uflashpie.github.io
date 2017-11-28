@@ -139,6 +139,12 @@ header{
 	z-index:-1;
 }
 
+@media screen and (max-width: 1170px) and (min-width: 320px) {
+    .line-UnderMriyniki {
+      width:125%;
+    }
+}
+
 .WeInNumbers{
 	width:100%;
 	height:165px;
@@ -528,6 +534,12 @@ input{
 	height: 300px;
 }
 
+@media screen and (max-width: 1170px) and (min-width: 285px) {
+    .footer-wrapper {
+      margin-top: -15px;
+    }
+}
+
 .some-question{
 	text-transform: UpperCase;
 	color: #fff;
@@ -549,12 +561,28 @@ input{
 	width: 200px;
 	height: 35px;
 	margin-top: 5px;
+	float: left;
+}
+
+.tel-icon{
+	font-family: "FontAwesome";
+	color: white;
+	float: left;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-top: 8px;
 }
 
 .form-tel-me{
 	margin-right: auto;
 	margin-left: auto;
-	width: 202px;
+	width: 245px;
+}
+
+.social-networks-container{
+	width: 200px;
+  margin-top: 65px;
+  margin-left: 25px;
 }
 
 .social-networks{
@@ -570,4 +598,80 @@ input{
 .social-networks > a > img{
 	width: 30px;
 	float: left;
+}
+
+/* Post Form */
+
+.overlay {
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, .5);
+	display: none;
+}
+
+.popup {
+	position: absolute;
+	width: 300px;
+	height: 180px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	padding: 40px;
+	background-color: #FFF;
+}
+
+.close-popup {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	width: 23px;
+	height: 23px;
+	cursor: pointer;
+}
+
+.close-popup:before {
+	content: '';
+	background-color: #000;
+	position: absolute;
+	height: 1px;
+	width: 31px;
+	top: 11px;
+	left: -4px;
+	transform: rotate(-45deg);
+}
+
+.close-popup:after {
+	content: '';
+	background-color: #000;
+	position: absolute;
+	height: 1px;
+	width: 31px;
+	top: 11px;
+	transform: rotate(45deg);
+	left: -4px;
+}
+
+.scroll-up {
+    width: 130px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #fcfcfc;
+    color: #aaa;
+    font-size: 13px;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: background .2s ease;
+    display: none;
+}
+
+.scroll-up:hover {
+    background-color: #eeeeee;
+    color: #777777;
 }

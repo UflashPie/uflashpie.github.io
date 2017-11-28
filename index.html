@@ -233,29 +233,29 @@
 																						це про щось так так</p>
 					</div>
 					<div class="application-container-mini application-container-mini-right">
-						<form action="">
+						<form class="form" id="form" name="form">
 							<div class="lb-inp">
 							  <label for="name" class="application-label">*Ваше ПІБ:</label>
-							 		<input type="name" name="name" id="name">								
+							 		<input type="name" class="form-field" name="name" id="name">								
 							</div>
 							<div class="lb-inp">
 							  <label for="phone" class="application-label">*Ваш телефон:</label>
-							 		<input type="tel" name="phone" id="phone">
+							 		<input type="tel" class="form-field" name="phone" id="phone">
 							 </div>
 							<div class="lb-inp">
 							  <label for="email" class="application-label">*Ваш E-mail:</label>
-							 		<input type="email" name="email" id="email">
+							 		<input type="email" class="form-field" name="email" id="email">
 							 </div>
 							 <div class="lb-inp">		
 								  <label for="child_name" class="application-label">*Ім`я дитини:</label>
-								 		<input type="name" name="child_name" id="child_name">	
+								 		<input type="name" class="form-field" name="child_name" id="child_name">	
 								</div>
 								<div class="lb-inp"> 		
 							  	<label for="year" class="application-label">*Вік дитини:</label>
-							 			<input type="number" name="year" id="year">
+							 			<input type="number" class="form-field" name="year" id="year">
 								</div>
 								<div class="lb-inp application-button">
-						  		<a href="#" class="button application-button">Подати заявку</a>
+						  		<a href="#" class="button application-button form-button">Подати заявку</a>
 						  	</div>
 						 </form>
 					</div>
@@ -264,7 +264,7 @@
 
 
 		<div class="download-container">
-			<a href="#" class="button button-download">
+			<a href="download/Речі на табір.txt" download class="button button-download">
 				Речі на табір
 				<img src="content/img/download.png" alt="Download">
 			</a>
@@ -282,7 +282,10 @@
 							<h3 class="head-tittle tell_me">Замовити дзвінок:</h3>
 						</label>
 						<input type="tel" id="tel_me" class="head-tittle inpt-tel-me" placeholder="Ваш телефон:">
-						<div class="social-networks">
+						<a href="#"><p class="tel-icon"></p></a>
+
+						<div class="social-networks-container">
+							<div class="social-networks">
 							<a href="#">
 								<img src="content/img/facebook.png" alt="SocialNetwork">
 							</a>
@@ -297,6 +300,8 @@
 								<img src="content/img/Viber.png" alt="SocialNetwork">
 							</a>
 						</div>
+						</div>
+						
 				</form>
 
 			</div>
@@ -305,6 +310,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://use.fontawesome.com/d09b226300.js"></script>
+    <script src="plugins/jquery-maskedinput/jquery.maskedinput.js"></script>
     <script src="slick/slick.min.js"></script>
     <script src="js/js.js"></script>
   </body>
