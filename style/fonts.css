@@ -1,0 +1,19 @@
+@font-face {
+	font-family: "Ubuntu";
+	src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Pattaya";
+	src: url("../fonts/Pattaya/Pattaya-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "PT_Sans";
+	src: url("../fonts/PT_Sans/PT_Sans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Shrikhand";
+	src: url("../fonts/Shrikhand/Shrikhand-Regular.ttf") format("truetype");
+}
