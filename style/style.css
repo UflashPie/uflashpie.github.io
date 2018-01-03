@@ -120,6 +120,15 @@ header{
 	margin-top:25px;
 }
 
+.head-tittle-Two{
+	font-family: "Ubuntu";
+	font-size: 30px;
+	color: #7298d7;
+	text-align:center;
+	margin-top:30px;
+	margin-bottom: -10px;
+}
+
 .Mriyniki-Red{
 	font-size: 75px;
 	font-family: "Pattaya";
@@ -127,7 +136,7 @@ header{
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	margin-top: 25px;
+	margin-top: 40px;
 }
 
 .line-UnderMriyniki{
@@ -355,7 +364,7 @@ header{
 }
 
 .price-container{
-	width: 750px;
+	width: 830px;
 	height:300px;
 	margin-left: auto;
 	margin-right: auto;
@@ -363,14 +372,14 @@ header{
 }
 
 .price-mini-conteiner{
-	width: 180px;
+	width: 225px;
 	margin-top: 50px;
 	float:left;
 }
 
 .price-mini-conteiner-middle{
-	margin-left: 105px;
-	margin-right: 105px;
+	margin-left: 75px;
+	margin-right: 75px;
 }
 
 .price-grn{
@@ -459,7 +468,7 @@ header{
 	color: #474747;
 	font-size: 20px;
 	float:left;
-	margin-top: 60px;
+	margin-top: 45px;
 	text-align: center;
 }
 
@@ -489,10 +498,10 @@ input{
 .application-button{
 	border-radius: 10px;
 	font-size:20px;
-	margin-left:30px;
+	margin-left:40px;
 	width: 205px;
 	line-height:20px;
-	margin-top: 15px;
+	margin-top: 45px;
 }
 
 .button-download{
