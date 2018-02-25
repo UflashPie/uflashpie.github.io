@@ -1,0 +1,79 @@
+/* Settings */
+
+*{
+	font-family: "HelveticaNeueCyr";
+	color: #000;
+}
+
+body{
+	background-color: #000;
+}
+
+a{
+	color: #000;
+	text-decoration: none;
+	transition: All .1s ease;
+}
+
+a:hover{
+	color: #bf527b;
+	text-decoration: none;
+}
+
+
+/* Header */
+
+.navbar{
+	font-size: 18px;
+	background-color: rgba(255, 255, 255, 0.9);
+	min-height: 75px;
+}
+
+.navbar-nav{
+	
+}
+
+.nav-burger{
+	width: 50px;
+}
+
+.navbar-brand{
+	margin-top:;
+  padding-top: 0px;
+}
+
+.navbar-brand>img{
+	margin-top: -10px;
+}
+
+#collapsibleNavbar{
+
+}
+
+.OurPhones{
+	margin: 0;
+}
+
+.nav-item{
+
+}
+
+.header-col{
+	/*margin: 0 auto;*/
+}
+
+.header-button{
+	color: #bf527b;
+	text-decoration: none;
+	border: 2px solid #bf527b;
+	padding: 10px 30px;
+	height: 50px;
+	border-radius: 5px;
+	background-position: 400px 0px;
+	transition: All .5s ease;
+}
+
+.header-button:hover{
+	background: #fff;
+	background-position: 0px 0px;
+}
