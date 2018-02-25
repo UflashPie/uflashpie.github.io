@@ -6,7 +6,8 @@
 }
 
 body{
-	background-color: #000;
+	background-color: #e2edff;
+	height: 1500px;
 }
 
 a{
@@ -20,6 +21,11 @@ a:hover{
 	text-decoration: none;
 }
 
+img{
+	max-width: 100%;
+	height: auto;
+}
+
 
 /* Header */
 
@@ -27,6 +33,7 @@ a:hover{
 	font-size: 18px;
 	background-color: rgba(255, 255, 255, 0.9);
 	min-height: 75px;
+
 }
 
 .navbar-nav{
@@ -76,4 +83,18 @@ a:hover{
 .header-button:hover{
 	background: #fff;
 	background-position: 0px 0px;
+}
+
+/* Slider */
+
+.slick-slider{
+
+}
+
+.sl_slide{
+  background-image: url(content/img/SliderBG.png);
+  width: 100%;
+  min-height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
