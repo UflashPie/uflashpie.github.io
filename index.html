@@ -1,82 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	 <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Document</title>
+<html lang="en" dir="ltr">
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="media.css">
-	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style/style.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+  <link rel="stylesheet" href="style/swipper_slider.css">
+
+  <title>Insta Link - test</title>
 </head>
+
 <body>
 
-	<!-- HEADER -->
-<nav class="navbar navbar-expand-md fixed-top">
-  <!-- Brand -->
-  <a class="navbar-brand" href="#">
-		<img src="content/img/_LOGO.png" alt="KvitArt">
-  </a>
+  <!-- Head Label -->
 
-  <!-- Toggler/collapsibe Button -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <img src="content/img/Burger.png" class="nav-burger" alt="menu">
-  </button>
-
-  <!-- Navbar links -->
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav header-col d-flex">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Послуги</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Портфоліо</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Контакти</a>
-      </li> 
-    </ul>
-  	<div class="ml-auto header-col d-flex justify-content-center ButtonAndPhones">
-  		<div  class="headerPhones">
-  			<p class="OurPhones">093 567 43 67</p>
-  			<p class="OurPhones">093 567 43 67</p>
-  		</div>
-  		<a href="#" class="button header-button">
-  			Залишити заявку
-  		</a>
-  	</div>
-  </div> 
-</nav>
-
-
-	<!-- SLIDER -->
-  <div class="sl">
-    <div>
-			<div class="sl_slide">
-				
-			</div>
-    </div>
-    <div>
-			<div class="sl_slide">
-				
-			</div>
+  <div class="label">
+    <div class="label_container">
+      <span>Created in <span class="sbold">@Instalink.space</span></span>
+      <img src="image/arrow.svg" class="label_arrow" alt="open">
     </div>
   </div>
 
+  <!-- Head Label __Close -->
 
 
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-<script type="text/javascript" src="slick/slick.min.js"></script>
-<script type="text/javascript" src="main_js.js"></script>
+  <div class="container">
 
 
+    <!-- Card About -->
 
+    <div class="block card_about__block">
+      <div class="card card_about">
+        <img src="image/photo_me.png" class="avatar" alt="Me">
+        <h2 class="sbold">Yura Oleskiv</h2>
+        <h4 class="medium">web designer</h4>
+        <a href="#about" class="button_main">Про мене</a>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- Card About __CLose -->
+
+
+  <!-- Services -->
+
+<div class="services__block">
+  <h2 class="sbold">Послуги</h2>
+
+  <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div style="background: url('image/services/1.png')" class="swipper_slider__inner">
+          <h3 class="services__h3">Дизайн Landing Page</h3>
+          <h4 class="services__h4 medium">Від $100</h4>
+          <a href="#" class="button_main sbold services__button">Відкрити</a>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div style="background: url('image/services/2.png')" class="swipper_slider__inner">
+          <h3 class="services__h3">Дизайн Landing Page</h3>
+          <h4 class="services__h4 medium">Від $100</h4>
+          <a href="#" class="button_main sbold services__button">Відкрити</a>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div style="background: url('image/services/1.png')" class="swipper_slider__inner">
+          <h3 class="services__h3">Дизайн Landing Page</h3>
+          <h4 class="services__h4 medium">Від $100</h4>
+          <a href="#" class="button_main sbold services__button">Відкрити</a>
+        </div>
+      </div>
+
+
+
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Services __Close -->
+
+
+
+
+
+
+
+  <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+  <script type="text/javascript" src="js/swipper_slider.js"></script>
 </body>
+
 </html>
