@@ -4,24 +4,34 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/preloder.css">
 
   <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+
 
   <title>Insta Link - test</title>
 </head>
 
 <body>
 
+  <!-- Preloder -->
+
+  <div id="preloder">
+      <div class="loader"></div>
+      <div class="placeholder__bg"></div>
+  </div>
+
   <!-- Head Label -->
 
   <a href="">
     <div class="label">
       <div class="label_container">
-        <span>Created in <span class="sbold">@Instalink.space</span></span>
+        <span>Created with <span class="sbold">@Instalink.space</span></span>
         <img src="image/arrow.svg" class="label_arrow" alt="open">
       </div>
     </div>
@@ -64,14 +74,14 @@
           </div>
         </div>
         <div class="swiper-slide">
-          <div style="background: url('image/services/2.png')" class="swipper_slider__inner">
-            <h3 class="services__h3">Дизайн Landing Page</h3>
-            <h4 class="services__h4 medium">Від $100</h4>
+          <div style="background: var(--main-gradient)" class="swipper_slider__inner img_no_dark">
+            <h3 class="services__h3">Замовити INSTA LINK</h3>
+            <h4 class="services__h4 medium">Від $10</h4>
             <a href="#" class="button_main sbold services__button">Відкрити</a>
           </div>
         </div>
         <div class="swiper-slide">
-          <div style="background: url('image/services/1.png')" class="swipper_slider__inner">
+          <div style="background: url('image/services/2.png')" class="swipper_slider__inner">
             <h3 class="services__h3">Дизайн Landing Page</h3>
             <h4 class="services__h4 medium">Від $100</h4>
             <a href="#" class="button_main sbold services__button">Відкрити</a>
@@ -126,14 +136,13 @@
 </div>
 
 
-<img class="imgd" src="image/socialMedia/behance.svg" alt="">
 
 
   <!-- Social media Close -->
 
+  <!-- jQery -->
 
-
-
+  <script type="text/javascript" src="js/preloder.js"></script>
   <script src="https://unpkg.com/swiper/js/swiper.js"></script>
   <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
   <script type="text/javascript" src="js/swipper_slider.js"></script>
