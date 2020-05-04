@@ -21,6 +21,33 @@
 
 *{
   background-blend-mode: soft-light, normal;
+  box-sizing: border-box
+}
+
+
+/* socialMedia Buttons color */
+#telegram{
+  background: #1A8EC8;
+}
+
+#skype{
+  background: #21A5E4;
+}
+
+#facebook{
+  background: #4267B2;
+}
+
+#behance{
+  background: #0057FF;
+}
+
+#dribbble{
+  background: #E64B87;
+}
+
+#instagram{
+  background: var(--main-gradient);
 }
 
 
@@ -90,6 +117,7 @@ a{
   text-decoration: none;
   width: auto;
   text-align: center;
+  color: var(--color-button);
 }
 
 .sbold{
@@ -176,6 +204,7 @@ a{
 
 .services__block{
   margin-top: var(--margin-top-main);
+
 }
 
 
@@ -198,7 +227,7 @@ a{
 
 
 .swiper-pagination{
-  bottom: -30px !important;
+  bottom: -32px !important;
   position: absolute;
 }
 
@@ -256,5 +285,46 @@ a{
   /* transform: translateZ(30px); */
 }
 
+/* Socail Media */
 
-.asd
+.socail_media__block{
+  margin-top: calc(var(--margin-top-main) + 40px);
+}
+
+.socal_media__innerBlock{
+  display: flex;
+  flex-direction: column;
+  margin-top: calc(var(--margin-top-secondary) - 10px);
+}
+
+.socail_media__button{
+  background: #g2g2g2;
+  border-radius: 5px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  background: #000;
+  margin-top: 10px;
+  padding: 0 20px;
+}
+
+.socail_media__icon{
+  width: 26px;
+  height: 26px;
+  color: #fff;
+  margin-right: 12px;
+}
+
+.socail_media__button > text{
+
+}
+
+
+
+
+
+
+.a{
+
+}
