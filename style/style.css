@@ -239,7 +239,7 @@ p{
 	height: auto;
 	border-radius: var(--border-radius) !important;
   margin-top: var(--margin-top-secondary);
-  overflow: visible !important;
+  /* overflow: visible !important; */
 }
 
 .swiper-slide {
