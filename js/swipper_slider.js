@@ -1,7 +1,7 @@
 var swiper = new Swiper('.swiper-container', {
   spaceBetween: 100,
-  // effect: "coverflow",
-  effect: "flip",
+  effect: "coverflow",
+  // effect: "flip",
   loop: false,
   grabCursor: true,
 
