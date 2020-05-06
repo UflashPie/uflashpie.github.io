@@ -185,6 +185,7 @@ p{
 /* Elements */
 
 .button_main{
+  -webkit-appearance: none;
   background-color: var(--color-accent);
   padding: 13px 42px 14px 42px;
   color: var(--color-button);
