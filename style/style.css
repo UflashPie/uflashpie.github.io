@@ -41,6 +41,9 @@
   padding-top: var(--padding-main);
 }
 
+.overflow_hide{
+  overflow: hidden;
+}
 
 /* socialMedia Buttons color */
 .telegram{
@@ -266,6 +269,7 @@ p{
 	height: auto;
 	border-radius: var(--border-radius) !important;
   margin-top: var(--margin-top-secondary);
+  overflow: visible !important;
 }
 
 .swiper-slide {
@@ -276,8 +280,8 @@ p{
 
 
 .swiper-pagination{
-  bottom: 0px !important;
-  position: absolute;
+  bottom: -32px !important;
+  width: 100px;
 }
 
 .swipper_slider__inner{

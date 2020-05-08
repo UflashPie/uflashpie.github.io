@@ -15,3 +15,6 @@ var swiper = new Swiper('.swiper-container', {
     delay: 5000,
   },
 });
+
+
+$(".swiper-wrapper").wrap("<div class='overflow_hide'></div>");
