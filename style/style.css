@@ -408,7 +408,7 @@ p{
 /* Form */
 
 .form__block{
-  margin-top: calc(var(--margin-top-main-text) + 40px);
+  margin-top: calc(var(--margin-top-main-text) + 12px);
 }
 
 .form{
