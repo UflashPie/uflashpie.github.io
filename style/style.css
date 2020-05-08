@@ -2,7 +2,7 @@
 
 :root{
   --bg-color: #F1F8FF;
-  --main-gradient: linear-gradient(0deg, rgba(225, 27, 126, 0.64), rgba(225, 27, 126, 0.64)), linear-gradient(97.12deg, #CD3FFF 0%, #FF3FD5 14.97%, #FF9141 66.1%, #FFBE41 102.63%);
+  --main-gradient: linear-gradient(0deg, rgba(225, 27, 126, 0.64), rgba(225, 27, 126, 0.64)), linear-gradient(90.67deg, #CD3FFF 0%, #FF3FD5 14.97%, #FF9141 66.1%, #FFBE41 102.63%);
   --color-text: #000;
   --color-accent: #3A9FE7;
   --color-button: #fff;
@@ -12,7 +12,8 @@
   --border-radius: 10px;
   --border-radius-button: 30px;
 
-  --margin-top-main: 58px;
+  --margin-top-main-text: 58px;
+  --margin-top-main: 70px;
   --margin-top-secondary: 23px;
   --margin-small: 10px;
   --margin-medium: 20px;
@@ -23,34 +24,47 @@
   --text: 16px;
 }
 
+
+
 *{
   box-sizing: border-box
 }
 
 
+/* Class */
+
+.w-100{
+  width: 100%;
+}
+
+.pdading_top_main{
+  padding-top: var(--padding-main);
+}
+
+
 /* socialMedia Buttons color */
-#telegram{
-  background: #1A8EC8;
+.telegram{
+  background: #1A8EC8 !important;
 }
 
-#skype{
-  background: #21A5E4;
+.skype{
+  background: #21A5E4 !important;
 }
 
-#facebook{
-  background: #4267B2;
+.facebook{
+  background: #4267B2 !important;
 }
 
-#behance{
-  background: #0057FF;
+.behance{
+  background: #0057FF !important;
 }
 
-#dribbble{
-  background: #E64B87;
+.dribbble{
+  background: #E64B87 !important;
 }
 
-#instagram{
-  background: var(--main-gradient);
+.instagram{
+  background: var(--main-gradient) !important;
 }
 
 
@@ -63,14 +77,14 @@ body{
   font-size: var(--text);
   background: var(--bg-color);
   margin: 0;
-  height: 3000px;
+  height: auto;
 }
 
 .block{
   width: 100%;
   margin: 0 auto;
   color: #fff;
-  margin-top: var(--margin-top-main);
+  margin-top: var(--margin-top-main-text);
 }
 
 
@@ -114,6 +128,7 @@ a{
   width: auto;
   text-align: center;
   color: var(--color-button);
+  cursor: pointer;
 }
 
 p{
@@ -129,11 +144,11 @@ p{
 }
 
 .bold{
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .normal{
-
+ font-weight: 400;
 }
 
 /* Colors pattern */
@@ -157,10 +172,19 @@ p{
   justify-content: space-between;
 }
 
+.label_container_down{
+  min-height: 65px;
+  line-height: 65px;
+}
+
 .label{
   background: var(--main-gradient);
   color: #fff;
   width: 100%;
+}
+
+.label_down{
+  margin-top: var(--margin-top-main);
 }
 
 .label_arrow{
@@ -185,8 +209,8 @@ p{
 /* Card about me  */
 
 .card_about__block{
-  --margin-top-main: 30px;
-    margin-top: var(--margin-top-main);
+  --margin-top-main-text: 30px;
+    margin-top: var(--margin-top-main-text);
 }
 
 .card_about{
@@ -227,7 +251,7 @@ p{
 /* Services */
 
 .cardSlider__block{
-  margin-top: var(--margin-top-main);
+  margin-top: var(--margin-top-main-text);
 
 }
 
@@ -313,7 +337,7 @@ p{
 /* Socail Media */
 
 .socail_media__block{
-  margin-top: calc(var(--margin-top-main) + 40px);
+  margin-top: calc(var(--margin-top-main-text) + 40px);
 }
 
 .socal_media__innerBlock{
@@ -349,7 +373,7 @@ p{
 /* About Me */
 
 .aboutMe__block{
-  margin-top: var(--margin-top-main);
+  margin-top: var(--margin-top-main-text);
 }
 
 .aboutMe__p{
@@ -363,7 +387,7 @@ p{
 
 
 .qrcode__block{
-  margin-top: var(--margin-top-main);
+  margin-top: var(--margin-top-main-text);
   display: flex;
   flex-direction: column;
 }
@@ -384,7 +408,7 @@ p{
 /* Form */
 
 .form__block{
-  margin-top: calc(var(--margin-top-main) + 40px);
+  margin-top: calc(var(--margin-top-main-text) + 40px);
 }
 
 .form{
