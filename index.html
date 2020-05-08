@@ -74,9 +74,70 @@
       </div>
     </div>
   </div>
+
+  <!-- Pop-up AD Close -->
+
+
+
+  <!-- Pop-up INSTA LINK  -->
+
+  <div class="popup" id="popup_instalink">
+    <a onclick="closePopup()">
+      <div class="close__popup">
+        <div class="close_popup__container">
+          <span class="medium">Закрити</span>
+          <img src="image/icons/close.svg" alt="close" style="width: 22px; height: 22px;">
+        </div>
+      </div>
+    </a>
+
+    <div class="popup_container__outer">
+      <div class="popup__container">
+        <div class="container">
+          <img class="popup__photo" src="image/popup/instalink.png" alt="Обложка">
+        </div>
+
+        <div class="container pdading_top_main">
+          <h4 class="normal popup__h4">від <span class="sbold">$10</span></h4>
+          <h2 class="sbold popup__h2">Замовити свій INSTA LINK</h2>
+          <p class="popup__p">
+            <span class="sbold">INSTA LINK</span> - це ваша онлайн візитка для швидкого
+            обміну контактами з посиланнями на соцмережі
+            та іншими фішками. Також його використовують,
+            як мультипосилання для Instagram.
+            <br><br>
+            Кожен <span class="sbold">INSTA LINK</span> розробляє
+            <span class="sbold">дизайнер</span> за вашими побажаннями.
+            Відповідно його можна <span class="sbold">кастомізувати</span> під свої потреби та
+            стиль профілю в Instagram (оберіть кольорову
+            гаму, види блоків, дизайн банерів та ін)
+            <br><br>
+            Також можна добавити блоки під різні потреби:
+            <span class="sbold">збір лідів, портфоліо, реклама q </span> та ін.
+            <br><br>
+            <span class="sbold">Щоб замовити такий INSTA LINK, просто напишіть мені.</span>
+          </p>
+        </div>
+
+        <div class="container">
+          <a href="https://t.me/yurii_oleskiv" class="socail_media__button telegram" target="_blank">
+            <img class="socail_media__icon" src="image/socialMedia/telegram.svg" alt="icon">
+            Написати в Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pop-up INSTA LINK Close -->
+
+
+
+
+
   <!-- Head Label -->
 
-  <a href="">
+  <a onclick="openPopup('#popup_instalink')">
     <div class="label">
       <div class="label_container">
         <span>Created with <span class="sbold">@Instalink.space</span></span>
@@ -121,7 +182,7 @@
             <a href="#" class="button_main medium cardSlider__button">Відкрити</a>
           </div>
         </div>
-        <div class="swiper-slide">
+        <div onclick="openPopup('#popup_instalink')" class="swiper-slide click_cursor">
           <div style="background: url('image/services/8.png')" class="swipper_slider__inner">
             <h3 class="cardSlider__h3">Замовити INSTA LINK</h3>
             <h4 class="cardSlider__h4 medium">Від $10</h4>
@@ -264,7 +325,7 @@
 
 <!-- Footer Label -->
 
-<a href="">
+<a onclick="openPopup('#popup_instalink')">
   <div class="label label_down">
     <div class="label_container label_container_down">
       <span>Створити свій <span class="sbold">INSTA LINK</span></span>

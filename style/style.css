@@ -131,6 +131,10 @@ a{
   cursor: pointer;
 }
 
+.click_cursor{
+  cursor: pointer;
+}
+
 p{
   line-height: 140%;
 }
@@ -252,7 +256,6 @@ p{
 
 .cardSlider__block{
   margin-top: var(--margin-top-main-text);
-
 }
 
 
@@ -263,19 +266,17 @@ p{
 	height: auto;
 	border-radius: var(--border-radius) !important;
   margin-top: var(--margin-top-secondary);
-  /* overflow: visible !important; */
 }
 
 .swiper-slide {
 	background: #fff;
   border-radius: var(--border-radius);
   display: flex;
-  /* transform-style: flat !important; */
 }
 
 
 .swiper-pagination{
-  bottom: -32px !important;
+  bottom: 0px !important;
   position: absolute;
 }
 
