@@ -132,6 +132,49 @@
   <!-- Pop-up INSTA LINK Close -->
 
 
+  <!-- Pop-up Landing Page  -->
+
+  <div class="popup" id="popup_lp">
+    <a onclick="closePopup()">
+      <div class="close__popup">
+        <div class="close_popup__container">
+          <span class="medium">Закрити</span>
+          <img src="image/icons/close.svg" alt="close" style="width: 22px; height: 22px;">
+        </div>
+      </div>
+    </a>
+
+    <div class="popup_container__outer">
+      <div class="popup__container">
+        <div class="container">
+          <img class="popup__photo" src="image/popup/LP.png" alt="Обложка">
+        </div>
+
+        <div class="container pdading_top_main">
+          <h4 class="normal popup__h4">від <span class="sbold">$100</span></h4>
+          <h2 class="sbold popup__h2">Потрібний сайт для вашого бізнесу?</h2>
+          <p class="popup__p">
+            Розроблю <span class="sbold">унікальний дизайн</span> та при бажанні
+            натягну його на платформу <span class="sbold">Тільда</span>. Якщо у
+            вас уже є сайт - <span class="sbold">напишіть мені</span> і я зроблю
+            <span class="sbold">безкоштовний аудит</span>, в якому розберу зручність
+            та ефективність сайту для користувача.
+            <br><br>
+            Також у переписці скину прайс на свої послуги.
+          </p>
+        </div>
+
+        <div class="container">
+          <a href="https://t.me/yurii_oleskiv" class="socail_media__button telegram" target="_blank">
+            <img class="socail_media__icon" src="image/socialMedia/telegram.svg" alt="icon">
+            Написати в Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pop-up Landing Page Close -->
 
 
 
@@ -175,25 +218,18 @@
     <!-- Swiper -->
     <div class="swiper-container">
       <div class="swiper-wrapper">
-        <div class="swiper-slide">
+        <div onclick="openPopup('#popup_lp')" class="swiper-slide click_cursor">
           <div style="background: url('image/services/1.png')" class="swipper_slider__inner">
             <h3 class="cardSlider__h3">Дизайн Landing Page</h3>
             <h4 class="cardSlider__h4 medium">Від $100</h4>
-            <a href="#" class="button_main medium cardSlider__button">Відкрити</a>
+            <a class="button_main medium cardSlider__button">Відкрити</a>
           </div>
         </div>
         <div onclick="openPopup('#popup_instalink')" class="swiper-slide click_cursor">
-          <div style="background: url('image/services/8.png')" class="swipper_slider__inner">
+          <div style="background: url('image/services/2.png')" class="swipper_slider__inner">
             <h3 class="cardSlider__h3">Замовити INSTA LINK</h3>
             <h4 class="cardSlider__h4 medium">Від $10</h4>
-            <a href="#" class="button_main medium cardSlider__button">Відкрити</a>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div style="background: url('image/services/2.png')" class="swipper_slider__inner">
-            <h3 class="cardSlider__h3">Дизайн Landing Page</h3>
-            <h4 class="cardSlider__h4 medium">Від $100</h4>
-            <a href="#" class="button_main medium cardSlider__button">Відкрити</a>
+            <a class="button_main medium cardSlider__button">Відкрити</a>
           </div>
         </div>
       </div>
@@ -267,7 +303,7 @@
     <div class="swiper-container">
       <div class="swiper-wrapper">
         <div onclick="openPopup('#popup_ad')" class="swiper-slide">
-          <div style="background: url('image/services/3.png')" class="swipper_slider__inner ">
+          <div style="background: url('image/services/8.png')" class="swipper_slider__inner ">
             <h3 class="cardSlider__h3">Місце для реклами</h3>
             <h4 class="cardSlider__h4 medium">Тут може бути...</h4>
             <a class="button_main medium cardSlider__button">Замовити рекламу</a>
@@ -335,12 +371,34 @@
 </a>
 
 
+<!-- Footer Label Dark part -->
+
+<a onclick="openPopup('#popup_instalink')">
+  <div class="label label_down_dark">
+    <div class="label_container_dark label_container_down">
+      <span>
+        <span class="sbold">INSTA LINK</span>  - це
+        ваша онлайн візитка для швидкого
+        обміну контактами з посиланнями
+        на соцмережі та іншими фішками
+      </span>
+      <div class="footer_logo">
+        <img src="image/icons/logo.svg" class="label_arrow" alt="open">
+        <span class="logo_text sbold">INSTA LINK</span>
+      </div>
+    </div>
+  </div>
+</a>
+
+
 <!-- Footer Label __Close -->
+
 
 
 
   <script type="text/javascript" src="js/preloder.js"></script>
   <script type="text/javascript" src="js/popup.js"></script>
+  <script type="text/javascript" src="js/javascript.js"></script>
   <script src="https://unpkg.com/swiper/js/swiper.js"></script>
   <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
   <script type="text/javascript" src="js/swipper_slider.js"></script>

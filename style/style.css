@@ -190,6 +190,27 @@ p{
   width: 100%;
 }
 
+.label_down_dark{
+  background: var(--color-dark);
+  font-size: 14px;
+}
+
+.label_container_dark{
+  width: 300px;
+  margin: 0 auto;
+  min-height: 35px;
+  line-height: 35px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 140%;
+  padding: 0 10px;
+  padding-top: 32px;
+  padding-bottom: 40px;
+  opacity: .3;
+  transition: 5s;
+}
+
 .label_down{
   margin-top: var(--margin-top-main);
 }
@@ -198,6 +219,21 @@ p{
   width: 26px;
 }
 
+.footer_logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.logo_text{
+  font-size: 24px;
+  margin-left: 6px;
+}
+
+.footer_animation{
+  opacity: .85;
+}
 
 
 /* Elements */
