@@ -213,6 +213,8 @@ p{
 
 .label_down{
   margin-top: var(--margin-top-main);
+  position: relative;
+  overflow: hidden;
 }
 
 .label_arrow{

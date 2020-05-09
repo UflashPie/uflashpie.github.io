@@ -33,6 +33,7 @@ $(function(){
 
   function init() {
     elements = document.querySelectorAll('.label_container_dark');
+    label = document.querySelectorAll('.label_down');
     windowHeight = window.innerHeight;
   }
 
@@ -43,6 +44,7 @@ $(function(){
 
       if (positionFromTop - windowHeight <= 0) {
         element.classList.add('footer_animation');
+        // Добавити блік
         // element.classList.remove('hidden');
       }
     }
