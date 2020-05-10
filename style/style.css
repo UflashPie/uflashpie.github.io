@@ -54,6 +54,10 @@
   background: var(--color-accent) !important;
 }
 
+.color-label_gradient{
+  background: var(--main-gradient) !important;
+}
+
 .skype{
   background: #21A5E4 !important;
 }
