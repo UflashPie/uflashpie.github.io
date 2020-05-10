@@ -50,6 +50,10 @@
   background: #1A8EC8 !important;
 }
 
+.color-accent{
+  background: var(--color-accent) !important;
+}
+
 .skype{
   background: #21A5E4 !important;
 }
@@ -425,6 +429,62 @@ p{
   margin-top: 8px;
   padding: 0 10px;
 }
+
+
+/* My Instruments */
+
+.instruments__block{
+  margin-top: var(--margin-top-main-text);
+}
+
+.instruments__container{
+  display: flex;
+  flex-direction: column;
+}
+
+.instruments__card{
+  display: flex;
+  margin-top: 30px;
+}
+
+.instruments__card > img{
+  width: 100px;
+  height: 100px;
+}
+
+.instruments_textWrapper{
+  display: flex;
+  align-content: center;
+  padding-left: 20px;
+  flex-wrap: wrap;
+}
+
+.instruments_textWrapper > h4{
+  text-align: left;
+}
+
+.instruments_textWrapper > p{
+  margin: 0;
+  font-size: 14px;
+  margin-top: 4px;
+  width: 100%;
+  opacity: .8;
+}
+
+
+.instruments__logo{
+  width: 107px;
+  height: 107px;
+}
+
+/* Other Info */
+
+.other_info__block{
+  margin-top: var(--margin-top-main-text);
+}
+
+
+
 
 /* QR - Code */
 
