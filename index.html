@@ -31,54 +31,6 @@
   </div>
 
 
-  <!-- Pop-up AD -->
-
-  <div class="popup" id="popup_ad">
-    <a onclick="closePopup()">
-      <div class="close__popup">
-        <div class="close_popup__container">
-          <span class="medium">Закрити</span>
-          <img src="image/icons/close.svg" alt="close" style="width: 22px; height: 22px;">
-        </div>
-      </div>
-    </a>
-
-    <div class="popup_container__outer">
-      <div class="popup__container">
-        <div class="container">
-          <img class="popup__photo" src="image/popup/ad.png" alt="Обложка">
-        </div>
-
-        <div class="container pdading_top_main">
-          <h4 class="normal popup__h4">ціна за домовленістю</h4>
-          <h2 class="sbold popup__h2">Розміщу ваше оголошння</h2>
-          <p class="popup__p">
-            Прорекламуйте свої послуги для
-            <span class="sbold">цільової аудиторії</span>.
-            В переважній більшості на даний
-            <span class="sbold">INSTA LINK </span>
-            заходять люди які зацікавленні у розробці сайту.
-            Відповідно їх можуть зацікавити і послуги
-            таргетологів, сммщиків чи фотографів.
-            <br><br>
-            <span class="sbold">Якщо цікаво, напишіть мені</span>
-          </p>
-        </div>
-
-        <div class="container">
-          <a href="https://t.me/yurii_oleskiv" class="socail_media__button telegram" target="_blank">
-            <img class="socail_media__icon" src="image/socialMedia/telegram.svg" alt="icon">
-            Написати в Telegram
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Pop-up AD Close -->
-
-
-
   <!-- Pop-up INSTA LINK  -->
 
   <div class="popup" id="popup_instalink">
@@ -132,49 +84,7 @@
   <!-- Pop-up INSTA LINK Close -->
 
 
-  <!-- Pop-up Landing Page  -->
 
-  <div class="popup" id="popup_lp">
-    <a onclick="closePopup()">
-      <div class="close__popup">
-        <div class="close_popup__container">
-          <span class="medium">Закрити</span>
-          <img src="image/icons/close.svg" alt="close" style="width: 22px; height: 22px;">
-        </div>
-      </div>
-    </a>
-
-    <div class="popup_container__outer">
-      <div class="popup__container">
-        <div class="container">
-          <img class="popup__photo" src="image/popup/lp.png" alt="Обложка">
-        </div>
-
-        <div class="container pdading_top_main">
-          <h4 class="normal popup__h4">від <span class="sbold">$100</span></h4>
-          <h2 class="sbold popup__h2">Потрібний сайт для вашого бізнесу?</h2>
-          <p class="popup__p">
-            Розроблю <span class="sbold">унікальний дизайн</span> та при бажанні
-            натягну його на платформу <span class="sbold">Тільда</span>. Якщо у
-            вас уже є сайт - <span class="sbold">напишіть мені</span> і я зроблю
-            <span class="sbold">безкоштовний аудит</span>, в якому розберу зручність
-            та ефективність сайту для користувача.
-            <br><br>
-            Також у переписці скину прайс на свої послуги.
-          </p>
-        </div>
-
-        <div class="container">
-          <a href="https://t.me/yurii_oleskiv" class="socail_media__button telegram" target="_blank">
-            <img class="socail_media__icon" src="image/socialMedia/telegram.svg" alt="icon">
-            Написати в Telegram
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Pop-up Landing Page Close -->
 
 
 
@@ -198,10 +108,10 @@
   <div class="container">
     <div class="block card_about__block">
       <div class="card card_about">
-        <img src="image/photo_me.png" class="avatar" alt="Me">
-        <h2 class="sbold">Yura Oleskiv</h2>
-        <h4 class="medium">web designer</h4>
-        <a href="#about" class="button_main go_anchor">Про мене</a>
+        <img src="image/logo.png" class="logo" alt="Me">
+        <h2 class="sbold">INSTA LINK</h2>
+        <h4 class="medium">веб візитка</h4>
+        <a href="#about" class="button_main go_anchor">Замовити</a>
       </div>
     </div>
   </div>
@@ -214,21 +124,21 @@
   <!-- Services -->
 
   <div class="container cardSlider__block">
-    <h2 class="sbold">Послуги</h2>
+    <h2 class="sbold">Пакети послуг</h2>
     <!-- Swiper -->
     <div class="swiper-container">
       <div class="swiper-wrapper">
-        <div onclick="openPopup('#popup_lp')" class="swiper-slide click_cursor">
-          <div style="background: url('image/services/1.png')" class="swipper_slider__inner">
-            <h3 class="cardSlider__h3">Дизайн Landing Page</h3>
-            <h4 class="cardSlider__h4 medium">Від $100</h4>
+        <div onclick="openPopup('#popup_instalink')" class="swiper-slide click_cursor">
+          <div style="background: url('image/services/1.png')" class="swipper_slider__inner img_no_dark">
+            <h3 class="cardSlider__h3">Пакет стандарт</h3>
+            <h4 class="cardSlider__h4 medium">ціна = $10 / рік</h4>
             <a class="button_main medium cardSlider__button">Відкрити</a>
           </div>
         </div>
         <div onclick="openPopup('#popup_instalink')" class="swiper-slide click_cursor">
-          <div style="background: url('image/services/2.png')" class="swipper_slider__inner">
-            <h3 class="cardSlider__h3">Замовити INSTA LINK</h3>
-            <h4 class="cardSlider__h4 medium">Від $10</h4>
+          <div style="background: url('image/services/1.png')" class="swipper_slider__inner img_no_dark">
+            <h3 class="cardSlider__h3">Пакет стандарт</h3>
+            <h4 class="cardSlider__h4 medium">ціна = $10 / рік</h4>
             <a class="button_main medium cardSlider__button">Відкрити</a>
           </div>
         </div>
@@ -242,151 +152,129 @@
 
 
 
-  <!-- Social media -->
-<div class="container socail_media__block">
-  <h2 class="sbold">Соціальні мережі</h2>
-  <div class="socal_media__innerBlock">
-
-    <a href="https://t.me/yurii_oleskiv" class="socail_media__button telegram" target="_blank">
-      <img class="socail_media__icon" src="image/socialMedia/telegram.svg" alt="icon">
-      Telegram
-    </a>
-
-    <a href="https://join.skype.com/invite/kj1tg2LVdEMl" class="socail_media__button skype" target="_blank">
-      <img class="socail_media__icon" src="image/socialMedia/skype.svg" alt="icon">
-      Skype
-    </a>
-
-    <a href="https://www.facebook.com/yurii.oleskiv" class="socail_media__button facebook" target="_blank">
-      <img class="socail_media__icon" src="image/socialMedia/facebook.svg" alt="icon">
-      Facebook
-    </a>
-
-    <a href="https://www.behance.net/yurii_oleskiv" class="socail_media__button behance" target="_blank">
-      <img class="socail_media__icon" src="image/socialMedia/behance.svg" alt="icon">
-      Behance
-    </a>
-
-    <a href="https://dribbble.com/yurii_oleskiv" class="socail_media__button dribbble" target="_blank">
-      <img class="socail_media__icon" src="image/socialMedia/dribbble.svg" alt="icon">
-      Dribbble
-    </a>
-
-    <a href="https://www.instagram.com/yurii_oleskiv/" class="socail_media__button instagram" target="_blank">
-      <img class="socail_media__icon" src="image/socialMedia/instagram.svg" alt="icon">
-      Instagram
-    </a>
-
-  </div>
-</div>
-  <!-- Social media Close -->
 
 
 <!-- About me -->
+<div class="bg-second shadow">
+  <div name="about" id="about" class="container aboutMe__block">
+    <h2 class="sbold">INSTA LINK?</h2>
+    <p class="aboutMe__p"><span class="sbold">INSTA LINK</span> - це
+      ваша онлайн візитка для швидкого
+      <span class="sbold">обміну контактами</span>
+      з посиланнями на соцмережі та іншими фішками.
+      Також її використовують, як
+      <span class="sbold">мультипосилання для Instagram</span>
+    </p>
 
-<div name="about" id="about" class="container aboutMe__block">
-  <h2 class="sbold">Про мене</h2>
-  <p class="aboutMe__p">Привіт, мене звати Юра. В соц мережах мене можна знайти за цим ніком <span class="sbold">@yurii_oleskiv</span> <br><br>
-    Я розробляю зручні та красиві інтерфейси для веб-сайтів, що збільшують виручку моїм клієнтам-партнерам.
-  </p>
+    <div class="benefit__container">
+      <div class="benefit__card">
+        <img src="image/benefit/design.png" alt="Figma" class="benefit__img">
+        <div class="benefit_textWrapper">
+          <h4 class="sbod">Дизайн</h4>
+          <p>Кожен INSTA LINK розробляє дизайнер за вашими побажаннями</p>
+        </div>
+      </div>
+      <div class="benefit__card">
+        <img src="image/benefit/style.png" alt="Figma" class="benefit__img">
+        <div class="benefit_textWrapper">
+          <h4 class="sbod">Ваш стиль</h4>
+          <p>Оберіть стиль, що пасуватимуть вашому Instagram</p>
+        </div>
+      </div>
+      <div class="benefit__card">
+        <img src="image/benefit/castomize.png" alt="Figma" class="benefit__img">
+        <div class="benefit_textWrapper">
+          <h4 class="sbod">Кастомізація</h4>
+          <p>Оберіть кольорову гаму, види блоків, дизайн банерів та ін.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
 </div>
+
 
 <!-- About me Close -->
 
 
-<!-- My Instruments -->
 
-<div class="container instruments__block">
-  <h2 class="sbold">В чому я працю?</h2>
-  <div class="instruments__container">
+<!-- Portfolio -->
 
-    <div class="instruments__card">
-      <img src="image/instruments/figma.png" alt="Figma" class="instruments__logo">
-      <div class="instruments_textWrapper">
-        <h4 class="sbod">Figma</h4>
-        <p>Основний інструмент для створення дизайну</p>
+<div class="container portfolio__block">
+  <h2 class="sbold">Приклади</h2>
+  <div class="portfolio__container">
+    <div class="portfolio__column">
+      <img class="portfolio__img" src="image/portfolio/1.png" alt="1 приклад">
+      <img class="portfolio__img" src="image/portfolio/2.png" alt="1 приклад">
+    </div>
+    <div class="portfolio__column">
+      <img class="portfolio__img" src="image/portfolio/3.png" alt="1 приклад">
+      <img class="portfolio__img" src="image/portfolio/4.png" alt="1 приклад">
+    </div>
+  </div>
+  <a href="yurii_oleskiv/index.html" class="button_main portfolio__btn">Перейти</a>
+</div>
+
+<!-- Portfolio Close -->
+
+
+
+<!-- Features -->
+
+<div class="container features__block" style="margin-bottom: 3px;">
+  <h2 class="sbold">Можливості</h2>
+  <div class="features__container">
+
+    <div class="features__card">
+      <img src="image/features/visit_card.png" alt="icon" class="features__logo">
+      <div class="features_textWrapper">
+        <h4 class="sbod">Ваша візитка</h4>
+        <p>Коротко роскажіть про себе та свої послуги</p>
       </div>
     </div>
-    <div class="instruments__card">
-      <img src="image/instruments/tilda.png" alt="Figma" class="instruments__logo">
-      <div class="instruments_textWrapper">
-        <h4 class="sbod">Tilda</h4>
-        <p>Тут відбувається верстка сайту</p>
+    <div class="features__card">
+      <img src="image/features/application.png" alt="icon" class="features__logo">
+      <div class="features_textWrapper">
+        <h4 class="sbod">Збір заявок</h4>
+        <p>На ваші: послуги, аудити, розмову з вами</p>
       </div>
     </div>
-    <div class="instruments__card">
-      <img src="image/instruments/notion.png" alt="Figma" class="instruments__logo">
-      <div class="instruments_textWrapper">
-        <h4 class="sbod">Notion</h4>
-        <p>Організаційні моменти та робота з текстами</p>
+    <div class="features__card">
+      <img src="image/features/ad.png" alt="icon" class="features__logo">
+      <div class="features_textWrapper">
+        <h4 class="sbod">Реклама</h4>
+        <p>Розміщуйте рекламу в вашому INSTA LINK</p>
       </div>
     </div>
-
+    <div class="features__card">
+      <img src="image/features/video.png" alt="icon" class="features__logo">
+      <div class="features_textWrapper">
+        <h4 class="sbod">Останнє відео</h4>
+        <p>Автоматичний показ останнього відео.</p>
+      </div>
+    </div>
+    <div class="features__card">
+      <img src="image/features/multi_url.png" alt="icon" class="features__logo">
+      <div class="features_textWrapper">
+        <h4 class="sbod">Мультипосилання</h4>
+        <p>Всі ваші соцмережі<br>на одній сторінці</p>
+      </div>
+    </div>
+    <a href="#" class="features_a sbold">Та ще 23 можливості</a>
   </div>
 </div>
 
-<!-- My Instruments Close -->
-
-
-<!-- Other info -->
-<div class="container other_info__block">
-<h2 class="sbold">А ще перегляньте</h2>
-<div class="socal_media__innerBlock">
-
-  <a href="https://bit.ly/2xVQIQa" class="socail_media__button color-accent" target="_blank">
-    <img class="socail_media__icon" src="image/icons/steps.svg" alt="icon">
-    Етапи розробки
-  </a>
-
-  <a href="https://bit.ly/2ztlCQB" class="socail_media__button color-accent" target="_blank">
-    <img class="socail_media__icon" src="image/icons/web.svg" alt="icon">
-    Структура сайтів
-  </a>
-
-  <a href="https://bit.ly/2Jfd9SJ" class="socail_media__button color-accent" target="_blank">
-    <img class="socail_media__icon" src="image/icons/case.svg" alt="icon">
-    Мої кейси
-  </a>
-
-</div>
-</div>
-<!-- Other info Close -->
+<!-- Features Close -->
 
 
 
-  <!-- Services -->
-
-  <div class="container cardSlider__block">
-    <h2 class="sbold">Від партнерів</h2>
-    <!-- Swiper -->
-    <div class="swiper-container">
-      <div class="swiper-wrapper">
-        <div onclick="openPopup('#popup_ad')" class="swiper-slide">
-          <div style="background: url('image/services/3.png')" class="swipper_slider__inner ">
-            <h3 class="cardSlider__h3">Місце для реклами</h3>
-            <h4 class="cardSlider__h4 medium">Тут може бути...</h4>
-            <a class="button_main medium cardSlider__button">Замовити рекламу</a>
-          </div>
-        </div>
-      </div>
-      <!-- Add Pagination -->
-      <div class="swiper-pagination"></div>
-    </div>
-  </div>
-
-  <!-- Services __Close -->
-
-
-
-
-
-
+<!-- Form -->
 
 <div class="container form__block">
 
   <form action="telegram.php" method="POST" class="form">
-    <h3 class="medium form__h3">Аудит вашого сайту</h3>
-    <h4 class="medium form__h4">$7 - за годну</h4>
+    <h3 class="medium form__h3">Замовити INSTA LINK</h3>
+    <h4 class="medium form__h4">Ми вам напишемо</h4>
 
     <div class="form__input">
       <input type="text" name="name" id="user_name" placeholder="Як вас звати" required>
@@ -395,12 +283,13 @@
       <input type="phone" name="phone" id="user_phone" placeholder="Ваш телефон" required>
     </div>
     <div class="">
-      <input type="submit" value="Замовити" class="button_main form_button">
+      <input type="submit" value="Надіслати" class="button_main form_button">
     </div>
   </form>
 
 </div>
 
+<!-- Form Close -->
 
 
 
@@ -424,7 +313,7 @@
   <div class="label label_down">
     <div class="label_container label_container_down">
       <span>Створити свій <span class="sbold">INSTA LINK</span></span>
-      <img src="image/arrow.svg" class="label_arrow" alt="open">
+      <img src="image/arrow_white.svg" class="label_arrow" alt="open">
     </div>
   </div>
 </a>
@@ -447,6 +336,7 @@
       </div>
     </div>
   </div>
+  <div class="label_after"></div>
 </a>
 
 
