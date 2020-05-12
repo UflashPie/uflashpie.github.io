@@ -452,7 +452,7 @@ p{
 }
 
 .instruments__card > img{
-  width: 100px;
+  width: 100px !important;;
   height: 100px;
 }
 

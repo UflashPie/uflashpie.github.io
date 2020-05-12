@@ -49,6 +49,7 @@
   overflow-y: scroll;
   margin-top: var(--popup-close-height);
   position: relative;
+  padding-bottom: var(--padding-main);
 }
 
 .popup__container{

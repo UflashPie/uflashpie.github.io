@@ -212,7 +212,7 @@ p{
 }
 
 .label_after{
-  min-height: 65px;
+  min-height: 64px;
 }
 
 .label_down_dark{
@@ -449,7 +449,7 @@ p{
 /* About Me */
 
 .aboutMe__block{
-  margin-top: var(--margin-top-main-text);
+  margin-top: calc(var(--margin-top-main) + 32px);
   position: relative;
   padding-top: calc(var(--padding-main) + 3px);
   padding-bottom: calc(var(--padding-main) + 10px);
@@ -476,7 +476,7 @@ p{
 }
 
 .benefit__card > img{
-  width: 100px;
+  width: 100px !important;
   height: 100px;
 }
 
@@ -554,7 +554,7 @@ p{
 }
 
 .features__card > img{
-  width: 84px;
+  width: 84px !important;
   height: 84px;
 }
 
