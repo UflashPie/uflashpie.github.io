@@ -2,16 +2,19 @@
 
 /* https://api.telegram.org/bot1149330200:AAGakaszYLvoAli_0oL97cYdu3cpyilIxfo/getUpdates,
 где, XXXXXXXXXXXXXXXXXXXXXXX - токен вашего бота, полученный ранее */
-
+$fomrID = "INSTA_LINK_Home";
 $name = $_POST['user_name'];
 $phone = $_POST['user_phone'];
 // $email = $_POST['user_email'];
 
+
 $token = "1149330200:AAGakaszYLvoAli_0oL97cYdu3cpyilIxfo";
 $chat_id = "-489784439";
 $arr = array(
+  'Form ID: ' => $fomrID,
   'Імя користувача: ' => $name,
   'Телефон: ' => $phone,
+
   // 'Email' => $email
 );
 

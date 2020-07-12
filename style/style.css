@@ -241,7 +241,7 @@ p{
 .label_down{
   position: fixed;
   bottom: 0;
-  z-index: 9999;
+  z-index: 998;
   overflow: hidden;
   background: var(--color-label-fx);
   color: var(--color-button);
@@ -478,6 +478,7 @@ p{
 .benefit__card > img{
   width: 100px !important;
   height: 100px;
+  flex: none;
 }
 
 .benefit_textWrapper{
@@ -556,6 +557,7 @@ p{
 .features__card > img{
   width: 84px !important;
   height: 84px;
+  flex: none;
 }
 
 .features_textWrapper{
